@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() {
-kernel.string=Rey Kernel by DespairFactor
+kernel.string=Kylo Kernel by DespairFactor
 do.devicecheck=0
 do.modules=0
 do.cleanup=1
@@ -17,8 +17,8 @@ device.name5=
 } # end properties
 
 # shell variables
-block=/dev/block/bootdevice/by-name/boot;
-is_slot_device=1;
+block=/dev/block/platform/soc.0/f9824900.sdhci/by-name/boot;
+is_slot_device=0;
 ramdisk_compression=auto;
 
 
